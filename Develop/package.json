@@ -1,14 +1,22 @@
 {
-  "name": "note-taker",
+  "name": "sc_notetaker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A comprehensive note taking application!",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schris48/sc_noteTaker.git"
+  },
+  "author": "schris48",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schris48/sc_noteTaker/issues"
+  },
+  "homepage": "https://github.com/schris48/sc_noteTaker#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.18.1"
   }
 }
