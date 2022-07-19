@@ -27,9 +27,6 @@
 
   ## Credits
     1. Mila Decker's example of a dynamic note taker, https://github.com/deckiedevs.
-
-  ## Tests
-  
   
   ### Questions
   For inquiries please reach out to me on GitHub or contact me via email:
