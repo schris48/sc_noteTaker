@@ -3,8 +3,8 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-const apiRoutes = require('./routes/apiRoutes');
-const htmlRoutes = require('./routes/htmlRoutes');
+const apiRoutes = require('./routes/apiRoutes/indexApiRoutes');
+const htmlRoutes = require('./routes/htmlRoutes/indexHtmlRoutes');
 
 // parse post data
 app.use(express.urlencoded({ extended: true }));
